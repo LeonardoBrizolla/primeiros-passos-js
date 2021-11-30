@@ -6,7 +6,8 @@ const temPassagemComprada = true;
 const listaDeCidades = new Array(
   `Santa Catarina`,
   `Rio Grande do Sul`,
-  `Curitiba`
+  `Curitiba`,
+  `São Paulo`
 );
 
 console.log('Lista de cidades disponíveis');
