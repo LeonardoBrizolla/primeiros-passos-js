@@ -7,5 +7,7 @@ const listaDeCidades = new Array(
 );
 
 listaDeCidades.push(`São Paulo`);
+listaDeCidades.splice(2, 1);
 
 console.log(listaDeCidades);
+console.log(listaDeCidades[0], listaDeCidades[1]);
