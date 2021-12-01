@@ -15,13 +15,16 @@ console.log('\n Destinos possiveis:');
 console.log(listaDeCidades);
 
 const podeComprar = idadeComprador >= 18 && estaAcompanhado === true;
+
 let contador = 0;
+let destinoExiste = false;
 
 while (contador < listaDeCidades.length) {
   if (listaDeCidades[contador] === destino) {
-    return console.log(`Destino encontrado: ${listaDeCidades[contador]}`);
-  } else {
-    console.log(`Destino nao encontrado`);
+    destinoExiste = true;
+    break;
   }
   contador++;
 }
+
+console.log('Destino existe: ', destinoExiste);
